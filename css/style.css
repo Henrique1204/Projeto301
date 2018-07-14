@@ -61,7 +61,7 @@ nav{
 
 a{
     text-decoration: none;
-    color: rgb(206, 171, 82);
+    color:#DAA520;
 }
 
 section{
@@ -177,12 +177,20 @@ p{
     margin-right: 10px;
  }
 
+ #Download a{
+    color: blue;
+    margin-bottom: 10px;
+ }
+
  footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 6vh;
-    width: 100vw;
+    height: 11vh;
     background-color: rgb(34, 34, 34);
+ }
+
+ footer p{
+     font-size: 8pt;
  }
