@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: black;
     font-family: sans-serif;
 }
@@ -55,4 +55,44 @@ nav{
 }
 nav a{
     text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(20vh + 32px);
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+h2{
+    color: rgb(143, 106, 14);  
+}
+
+ #intro p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#oqueé{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color:#DAA520;
+}
+
+#oqueé p{
+    text-align: center;
+    color: white;
 }
