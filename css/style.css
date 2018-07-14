@@ -64,35 +64,41 @@ section{
     align-items: center;
     margin-top: calc(20vh + 32px);
 }
+
 #intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
+    height: 70vh;
 }
 
-h2{
-    color: rgb(143, 106, 14);  
-}
-
- #intro p{
+#intro p{
     text-align: center;
     font-weight: bolder;
 }
 
-#oqueé{
+#sobre{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h3{
+h2{
+    text-align: center;
     color:#DAA520;
 }
 
-#oqueé p{
-    text-align: center;
+#sobre p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10pt;
+    text-align: justify;
     color: white;
+}
+
+#sobre img{
+    border: solid rgb(201, 195, 195) 4px;
 }
