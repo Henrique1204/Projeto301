@@ -10,11 +10,16 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(34, 34, 34);
     height: 25vh;
     width: 100vw;
     position: fixed;
     top: 0;
+}
+
+h1,h2,h3{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h1{
@@ -53,8 +58,10 @@ header:nth-child(3){
 nav{
     display: none;
 }
-nav a{
+
+a{
     text-decoration: none;
+    color: rgb(206, 171, 82);
 }
 
 section{
@@ -74,16 +81,10 @@ section{
     height: 70vh;
 }
 
-#intro p{
+#pum{
     text-align: center;
     font-weight: bolder;
-}
-
-#sobre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color:black;
 }
 
 h2{
@@ -91,7 +92,13 @@ h2{
     color:#DAA520;
 }
 
-#sobre p{
+#sobre div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 10pt;
@@ -99,6 +106,83 @@ h2{
     color: white;
 }
 
-#sobre img{
+#sobre div img{
     border: solid rgb(201, 195, 195) 4px;
+    margin-left: 10px;
 }
+
+#pensando{
+    align-self: flex-start;
+}
+
+#cff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cff > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+ #cff div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+
+ #criando{
+    align-self: flex-end;
+ }
+
+ #cff div img:hover{
+    transform: scale(2);
+ }
+ 
+ #perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+ }
+
+ lt{
+     margin-left: 10px;
+    color: rgb(160, 117, 9);
+ }
+
+ #Download div{
+    display: flex;
+    justify-content: center;
+ }
+
+ #Download div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+#Download p{
+    font-size: 12pt;
+}
+
+ #Download img{
+    margin-right: 10px;
+ }
+
+ footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 100vw;
+    background-color: rgb(34, 34, 34);
+ }
