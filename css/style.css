@@ -225,6 +225,10 @@ p{
 
  @media(min-width: 1060px){
 
+    p{
+        font-size: 20pt;
+    }
+
     h1{
         align-self: flex-start;
         margin-top: 25px;
@@ -237,6 +241,7 @@ p{
     }
 
     a{
+        font-size: 13pt;
         margin-right: 10px;
     }
     
