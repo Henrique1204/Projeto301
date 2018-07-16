@@ -31,14 +31,6 @@ h1{
     margin: 15px 15px 10px 0px;
 }
 
-header:nth-child(3){
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80vw;
-    max-width: 1000px;
-}
-
 #menu{
     display: flex;
     flex-direction: column;
@@ -62,7 +54,7 @@ nav{
 a{
     text-decoration: none;
     color:#DAA520;
-}
+}   
 
 section{
     display: flex;
@@ -193,4 +185,80 @@ p{
 
  footer p{
      font-size: 8pt;
+ }
+
+ @media (max-width: 440px){
+
+    h1{
+        font-size: 16px;
+    }
+
+    #sobre div{ 
+        flex-direction: column;
+    }
+
+ }
+
+ @media (min-width: 870px){
+
+    header{
+        z-index: 1;
+    }
+
+    #sobre div{
+        flex-direction: column;
+    }
+
+    #criando{
+        align-self: auto;
+    }
+
+    p{
+        font-size: 15pt;
+    }
+
+    #cff img{
+        transform: scale(1.5);
+        margin: 10px 0px;
+    }
+ }
+
+ @media(min-width: 1060px){
+
+    h1{
+        align-self: flex-start;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+
+    nav{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    a{
+        margin-right: 10px;
+    }
+    
+    header{
+        flex-direction: column-reverse;
+        height: 20vh;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    header div nav{
+        display: block;
+    }
+
+    #intro{
+        width: 100vw;
+    }
+
+    #sobre img{
+        width: 345px;
+        height: 394px;
+    }
  }
